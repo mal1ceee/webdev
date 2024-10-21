@@ -26,33 +26,52 @@
 
         <section id="about">
             <h2>About Me</h2>
-            <p>I'm passionate about creating beautiful and functional websites.</p>
+            <article>
+                <p>I'm passionate about creating beautiful and functional websites.</p>
+                <p>Here are some of my skills:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </article>
         </section>
 
         <section id="projects">
             <h2>My Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Description of project 1</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Description of project 2</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Description of project 3</p>
-                </div>
-            </div>
+            <article>
+                <h3>Project 1</h3>
+                <p>Description of project 1</p>
+                <figure>
+                    <img src="src/image.png" alt="Project 1 Screenshot">
+                    <figcaption>Project 1 Screenshot</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Project 2</h3>
+                <p>Description of project 2</p>
+                <figure>
+                    <img src="src/image2.png" alt="Project 2 Screenshot">
+                    <figcaption>Project 2 Screenshot</figcaption>
+                </figure>
+            </article>
         </section>
 
         <section id="contact">
             <h2>Contact Me</h2>
             <form id="contact-form">
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Your Email" required>
-                <textarea id="message" placeholder="Your Message" required></textarea>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" required></textarea>
+                </div>
                 <button type="submit">Send Message</button>
             </form>
         </section>
