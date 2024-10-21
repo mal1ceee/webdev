@@ -20,7 +20,7 @@ To install and run My Portfolio Website, follow these steps:
 
 2. Navigate to the project directory:
    ```
-   cd your-repo-name
+   cd webdev
    ```
 
 3. Install the dependencies:
@@ -28,16 +28,14 @@ To install and run My Portfolio Website, follow these steps:
    npm install
    ```
 
-4. Start the server:
+4. Start the development server:
    ```
    npm start
    ```
 
-5. Open your web browser and visit `http://localhost:3000`
+5. Open your web browser and visit `http://localhost:4000`
 
-
-## Project Structure
-
+The server will automatically restart if you make changes to the server code, and the browser will reload if you make changes to HTML, CSS, or client-side JavaScript files.
 
 ## Customizing the Portfolio
 
@@ -46,18 +44,6 @@ To customize this portfolio for your own use:
 1. Edit the `index.html` file to update the content with your own information.
 2. Modify the `styles.css` file to change the appearance of your portfolio.
 3. Update the `script.js` file if you want to add or modify any JavaScript functionality.
-
-## Contributing to My Portfolio Website
-
-To contribute to My Portfolio Website, follow these steps:
-
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-
-Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Contact
 

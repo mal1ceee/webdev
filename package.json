@@ -4,7 +4,7 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node dev-server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,9 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "nodemon": "^3.1.7"
   }
 }
