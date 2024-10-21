@@ -61,7 +61,7 @@ Alternatively, see the GitHub documentation on [creating a pull request](https:/
 
 ## Contact
 
-If you want to contact me, you can reach me at `<your_email@example.com>`.
+If you want to contact me, you can reach me at `Kleonard002@mymail.sim.edu.sg`.
 
 ## License
 
